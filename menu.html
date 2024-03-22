@@ -4,44 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="style_mobile.css">
     <title>Pizzeria Dalia | Menù</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a13a0f4da.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav id="navbar">
-            <div class="container">
-                <ul>
-                    <img class="logo" src="./img/logo_scritta.png" alt="">
-                </ul>
-                <ul class="menu">
-                    <li class="other"><a href="index.html">Home</a></li>
-                    <li class="current">Menù</li>
-                    <li class="other"><a href="contact.html">Prova</a></li>
-                </ul>
-            </div>
-        </nav>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i> 
+            </label>
+            <label class="logo">
+                <img src="./img/logo_scritta.png" alt="">
+            </label>    
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html" class="current">Menù</a></li>
+              <li><a href="contact.html">Prova</a></li>
+            </ul>
+          </nav>
     </header>
 
    <section id="menu">
         <div class="box">
-            <p class="title">Fritti</p>
+            <p class="title">Antipasti & Fritti</p>
             <hr>
             <div class="container">
                 <div class="pietanza">
                     <p>Panzarotti..................2,00€</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aut, quibusdam autem saepe nobis molestias. (2pz)</p>
                 </div>
+                <br>
                 <div class="pietanza">
                     <p>Panzarotti..................2,00€</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas possimus illo aspernatur aperiam deserunt. (2pz)</p>
                 </div>
+                <br>
+                <div class="pietanza">
+                    <p>Panzarotti..................2,00€</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid illo iure adipisci ratione, distinctio exercitationem. (2pz)</p>
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <div class="pietanza">
+                    <p>Panzarotti..................2,00€</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aut, quibusdam autem saepe nobis molestias. (2pz)</p>
+                </div>
+                <br>
+                <div class="pietanza">
+                    <p>Panzarotti..................2,00€</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas possimus illo aspernatur aperiam deserunt. (2pz)</p>
+                </div>
+                <br>
                 <div class="pietanza">
                     <p>Panzarotti..................2,00€</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid illo iure adipisci ratione, distinctio exercitationem. (2pz)</p>
@@ -49,26 +72,7 @@
             </div>
         </div>
    </section>
-   <section id="menu">
-        <div class="box">
-            <p class="title">Antipasti</p>
-            <hr>
-            <div class="container">
-                <div class="pietanza">
-                    <p>Panzarotti..................2,00€</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aut, quibusdam autem saepe nobis molestias. (2pz)</p>
-                </div>
-                <div class="pietanza">
-                    <p>Panzarotti..................2,00€</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas possimus illo aspernatur aperiam deserunt. (2pz)</p>
-                </div>
-                <div class="pietanza">
-                    <p>Panzarotti..................2,00€</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid illo iure adipisci ratione, distinctio exercitationem. (2pz)</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  
 
     <footer>
         <div class="foot">

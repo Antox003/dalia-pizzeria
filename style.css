@@ -163,9 +163,6 @@ a.current,a:hover{
 
 #menu .box{
     width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 #menu .box .title{
