@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Teko", sans-serif;
+}
+
+body{
+    background-color: #000000;
+}
+
+.color{
+    color: #9c2421;
+}
+
+/*Home*/
+/*NavBar*/
+
+nav{
+    height: 12vh;
+    width: 100%;
+    background: #F0F1F5;
+    font-size: 30px;
+}
+
+.logo img{
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    width: 12rem;
+}
+
+.logo img{
+    width: 30%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #000000;
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: "Courier Prime", monospace;
+}
+
+a.current,a:hover{
+    color: #9c2421;
+    transition: 0.2s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #9c2421;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/*Presentazione*/
+#presentation {
+    height: 20vh;
+    padding: 12rem 0;
+    color: #ffffff;
+    background: url(./img/background_home.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+}
+
+#presentation .container{
+    text-align: center;
+    font-size: 30px;
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+#presentation .container h1{
+    text-shadow: 2px 2px #000000;
+    font-size: 50px;
+}
+
+#presentation .container p{
+   color: #9c2421;
+   font-family: "Teko", sans-serif;
+   text-shadow: 1px 1px #000000;
+}
+
+
+/*Logo Storia*/
+
+#info .container{
+    display: flex;
+    color: #ffffff;
+}
+
+#info .container .sx img{
+    width: 100%;
+}
+
+#info .container .dx{
+    text-align: center;
+    background-color: #363434;
+    font-size: 20px;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+#info .container .dx h2{
+    font-size: 45px;
+}
+
+#info .container .dx p{
+    font-size: 25px;
+}
+
+/*Mappa*/
+#maps{
+    background: #F0F1F5;
+}
+
+#maps .title{
+    padding: 1rem;
+    text-align: center;
+}
+
+#maps .title h2{
+    color: #000000;
+    font-size: 60px;
+}
+
+#maps .container iframe{
+    width:100%;
+    height:500px;
+    filter: blur(1px);
+    transition: 0.2s ease-in;
+}
+
+#maps .container iframe:hover{
+    filter: blur(0px);
+    transition: 0.2s ease-in;
+}
+
+/*Menù page*/
+#menu{
+    display: flex;
+    justify-content: center;
+    background: #363434;
+}
+
+#menu .box{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#menu .box .title{
+    color: #9c2421;
+    font-size: 40px;
+}
+
+#menu .box .container .pietanza{
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+#menu .box .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+.foot{
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background: url(./img/footer_background.png) center center/cover no-repeat;
+}
+
+.foot p{
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.foot p .color{
+    color: #9c2421;
+} 
