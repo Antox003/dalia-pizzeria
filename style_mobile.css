@@ -40,9 +40,11 @@ a:hover,a.current{
 
 
 /*Menù page*/
-#menu .box .container{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+
+#menu .box .container-menu .pietanza{
+  width: 85%;
+}
+
+#menu .box .container-menu{
   flex-direction: column;
 }

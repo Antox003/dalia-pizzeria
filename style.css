@@ -162,7 +162,7 @@ a.current,a:hover{
 }
 
 #menu .box{
-    width: 85%;
+    width: 90%;
 }
 
 #menu .box .title{
@@ -173,7 +173,7 @@ a.current,a:hover{
 #menu .box .container-menu .pietanza{
     color: #ffffff;
     font-size: 20px;
-
+    width: 50%;
 }
 
 #menu .box .container-menu{
