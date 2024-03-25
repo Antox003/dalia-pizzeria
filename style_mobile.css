@@ -38,10 +38,28 @@ a:hover,a.current{
   left: 0;
 }
 
+/*Home*/
+#presentation {
+  height: 15vh;
+  padding: 10rem 0;
+}
+
+#presentation .container{
+  text-align: center;
+  font-size: 30px;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+#presentation .container h1{
+  text-shadow: 2px 2px #000000;
+  font-size: 50px;
+}
 
 /*Menù page*/
-
-
+#menu .box .container-menu .pietanza{
+  width: 100%;
+}
 
 #menu .box .container-menu{
   flex-direction: column;
