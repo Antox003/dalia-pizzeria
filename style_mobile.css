@@ -1,7 +1,11 @@
 .checkbtn{
   display: block;
 }
-  
+
+nav{
+  height: 12vh;
+}
+
 ul{
   position: fixed;
   width: 100%;
