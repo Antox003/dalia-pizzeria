@@ -57,14 +57,14 @@ a:hover,a.current{
 
 #presentation .container h1{
   text-shadow: 2px 2px #000000;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 #presentation .container p{
   color: #9c2421;
   font-family: "Teko", sans-serif;
   text-shadow: 1px 1px #000000;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 /*Menù page*/
