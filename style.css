@@ -74,7 +74,7 @@ a.current,a:hover{
 /*Presentazione*/
 #presentation {
     height: 20vh;
-    padding: 12rem 0;
+    padding:10rem 0;
     color: #ffffff;
     background: url(./img/background_home.jpg) no-repeat center center/cover;
     display: flex;
@@ -90,7 +90,7 @@ a.current,a:hover{
 
 #presentation .container h1{
     text-shadow: 2px 2px #000000;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #presentation .container p{
