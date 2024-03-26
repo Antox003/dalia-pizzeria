@@ -70,7 +70,6 @@ a:hover,a.current{
 #info .container{
   display: flex;
   flex-direction: column;
-  color: #ffffff;
 }
 
 #maps .container iframe{
