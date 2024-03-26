@@ -67,6 +67,16 @@ a:hover,a.current{
   font-size: 24px;
 }
 
+#info .container{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+#maps .container iframe{
+  filter: blur(0px);
+}
+
 /*Menù page*/
 #menu .box .container-menu .pietanza{
   width: 100%;
