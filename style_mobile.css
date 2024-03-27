@@ -78,13 +78,7 @@ a:hover,a.current{
 
 /*Menù page*/
 #max{
-  background: #F0F1F5;
-}
-
-#menu{
-  display: flex;
-  justify-content: center;
-  background: url(./img/background_menu.png);
+  background: url(./img/background-menu-mobile.png);
 }
 
 #menu .box .container-menu .pietanza{
