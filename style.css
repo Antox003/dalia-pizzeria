@@ -154,10 +154,13 @@ a.current,a:hover{
 }
 
 /*Menù page*/
+#max{
+    background: url(./img/background_menu.png)no-repeat center center/cover;
+}
+
 #menu{
     display: flex;
     justify-content: center;
-    background: url(./img/background_menu.png);
 }
 
 #menu .box{
