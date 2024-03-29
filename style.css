@@ -76,7 +76,7 @@ a.current,a:hover{
     height: 20vh;
     padding:10rem 0;
     color: #ffffff;
-    background: url(./img/background_home.jpg) no-repeat center center/cover;
+    background: url(./img/background_home.png) no-repeat center center/cover;
     display: flex;
     justify-content: center;
 }
