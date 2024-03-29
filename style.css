@@ -181,11 +181,11 @@ a.current,a:hover{
 #menu .box .container-menu .pietanza b{
     display: flex;
     justify-content: space-between;
+    
 }
 
 #menu .box .container-menu .pietanza .color-pietanza{
     color: #157d34;
-    font-weight: 800;
 }
 
 #menu .box .container-menu{
