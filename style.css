@@ -178,6 +178,10 @@ a.current,a:hover{
     width: 50%;
 }
 
+#menu .box .container-menu .pietanza .color-pietanza{
+    color: #055d3a;
+}
+
 #menu .box .container-menu{
     display: flex;
     justify-content: space-between;
