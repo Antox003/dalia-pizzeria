@@ -39,7 +39,7 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    line-height: 60px;
+    line-height: 80px;
     margin: 0 5px;
 }
 
@@ -61,7 +61,7 @@ a.current,a:hover{
     font-size: 30px;
     color: #9c2421;
     float: right;
-    line-height: 65px;
+    line-height: 100px;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -175,7 +175,7 @@ a.current,a:hover{
 #menu .box .container-menu .pietanza{
     color: #ffffff;
     font-size: 20px;
-    width: 50%;
+    width: 80%;
 }
 
 #menu .box .container-menu .pietanza b{
