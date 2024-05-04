@@ -175,13 +175,13 @@ a.current,a:hover{
 #menu .box .container-menu .pietanza{
     color: #ffffff;
     font-size: 20px;
-    width: 50%;
+    width: 100%;
+
 }
 
 #menu .box .container-menu .pietanza b{
     display: flex;
     justify-content: space-between;
-    
 }
 
 #menu .box .container-menu .pietanza .color-pietanza{
