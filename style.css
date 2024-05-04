@@ -16,7 +16,7 @@ body{
 /*NavBar*/
 
 nav{
-    height: 10vh;
+    height: 11vh;
     width: 100%;
     background: #F0F1F5;
     font-size: 30px;
@@ -61,8 +61,8 @@ a.current,a:hover{
     font-size: 30px;
     color: #9c2421;
     float: right;
-    line-height: 80px;
     margin-right: 40px;
+    line-height: 80px;
     cursor: pointer;
     display: none;
 }
