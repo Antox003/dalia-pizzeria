@@ -194,26 +194,6 @@ a.current,a:hover{
     flex-wrap: wrap;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Footer*/
 .foot{
     height: auto;
@@ -229,6 +209,11 @@ a.current,a:hover{
     color: #ffffff;
 }
 
-.foot p .color{
+.foot .document .cookie{
+    color: #ffffff;
+    font-size: 25px;
+} 
+
+.foot .document .cookie:hover{
     color: #9c2421;
 } 
