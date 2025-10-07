@@ -1,12 +1,12 @@
-.checkbtn{
+.checkbtn {
   display: block;
 }
 
-nav{
+nav {
   height: 12vh;
 }
 
-ul{
+ul {
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -15,76 +15,18 @@ ul{
   left: -100%;
   text-align: center;
   transition: all .5s;
-  z-index:1;
+  z-index: 1;
 }
-  
-nav ul li{
+
+nav ul li {
   display: block;
   margin: 50px 0;
   line-height: 30px;
 }
 
-nav ul li a{
+nav ul li a {
   font-size: 35px;
 }
-  
-.logo img{
-  width: 65%;
-  height: auto;
-}
-  
-a:hover,a.current{
-  background: none;
-  color: #9c2421;
-}
-  
-#check:checked ~ ul{
-  left: 0;
-}
 
-/*Home*/
-#presentation {
-  height: 45vh;
-  padding: 3rem 0;
-}
-
-#presentation .container{
-  text-align: center;
-  font-size: 30px;
-  max-width: 50%;
-  border-radius: 10px;
-}
-
-#presentation .container h1{
-  text-shadow: 2px 2px #000000;
-  font-size: 45px;
-}
-
-#presentation .container p{
-  color: #9c2421;
-  font-family: "Teko", sans-serif;
-  text-shadow: 1px 1px #000000;
-  font-size: 24px;
-}
-
-#info .container{
-  display: flex;
-  flex-direction: column;
-}
-
-#maps .container iframe{
-  filter: blur(0px);
-}
-
-/*Menù page*/
-#max{
-  background: url(./img/background-menu-mobile.png);
-}
-
-#menu .box .container-menu .pietanza{
-  width: 100%;
-}
-
-#menu .box .container-menu{
-  flex-direction: column;
-}
+.logo img {
+  width: 6
